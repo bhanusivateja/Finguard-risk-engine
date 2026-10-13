@@ -1,0 +1,3 @@
+"""
+FinGuard AI - Source Package
+"""

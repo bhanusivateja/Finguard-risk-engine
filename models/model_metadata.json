@@ -1,0 +1,69 @@
+{
+  "selected_model": "Random Forest",
+  "metrics": {
+    "model_name": "Random Forest",
+    "accuracy": 0.9539,
+    "precision": 0.6123,
+    "recall": 0.6742,
+    "f1_score": 0.6418,
+    "roc_auc": 0.9189,
+    "pr_auc": 0.7053,
+    "confusion_matrix": {
+      "true_negatives": 8555,
+      "false_positives": 245,
+      "false_negatives": 187,
+      "true_positives": 387
+    }
+  },
+  "num_features": 38,
+  "features": [
+    "TransactionAmt",
+    "card1",
+    "card2",
+    "card3",
+    "card5",
+    "addr1",
+    "addr2",
+    "dist1",
+    "C1",
+    "C2",
+    "C5",
+    "C6",
+    "C9",
+    "C11",
+    "C13",
+    "C14",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D10",
+    "D15",
+    "V12",
+    "V45",
+    "V87",
+    "V128",
+    "V258",
+    "V281",
+    "V283",
+    "V307",
+    "V310",
+    "V317",
+    "ProductCD",
+    "card4",
+    "card6",
+    "P_emaildomain",
+    "R_emaildomain",
+    "DeviceType"
+  ],
+  "dataset": "IEEE-CIS Fraud Detection",
+  "weights": {
+    "ml_weight": 0.4,
+    "behavioral_weight": 0.35,
+    "contextual_weight": 0.25
+  },
+  "thresholds": {
+    "low": 30.0,
+    "medium": 70.0
+  }
+}
